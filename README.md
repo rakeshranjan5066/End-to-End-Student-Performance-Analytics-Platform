@@ -22,14 +22,14 @@ The predictive model is integrated into an interactive web application developed
 
 Enter a student's profile parameters to obtain a predicted mathematics score, estimated global percentile, estimated class rank, and insights based on the model's output.
 
-![Prediction Dashboard](Screenshot%202026-08-05%20170502.png)
+![Prediction Dashboard](images/Screenshot%202026-08-05%20170502.png)
 
 ### 2. Interactive Model Analytics
 
 The model diagnostics section visualizes actual versus predicted performance and prediction errors, helping users understand how the model performs.
 
 ![Model Analytics](
-Screenshot%202026-08-05%20170520.png)
+images/Screenshot%202026-08-05%20170520.png)
 
 ---
 
@@ -43,13 +43,13 @@ Exploratory data analysis was performed to identify patterns, relationships, and
 
 - **The Nutrition Factor:** Students receiving standard lunch programs scored, on average, approximately 11 points higher in mathematics than students receiving free or reduced lunch.
 
-![EDA - Lunch Impact](Screenshot%202026-08-05%20170716.png)
+![EDA - Lunch Impact](images/Screenshot%202026-08-05%20170716.png)
 
 - **Gender-Based Performance Differences:** Male students demonstrated slightly higher average mathematics scores, while female students performed better on average in reading and writing.
 
-![EDA - Gender Distribution 1](Screenshot%202026-08-05%20170644.png)
+![EDA - Gender Distribution 1](images/Screenshot%202026-08-05%20170644.png)
 
-![EDA - Gender Distribution 2](Screenshot%202026-08-05%20170659.png)
+![EDA - Gender Distribution 2](images/Screenshot%202026-08-05%20170659.png)
 
 ### Phase 2: Model Training & Evaluation
 
@@ -65,9 +65,9 @@ Multiple regression algorithms were trained and evaluated to identify the best-p
 
 Linear Regression achieved the highest R² score among the evaluated models in the reported experiment.
 
-![Model Leaderboard](Screenshot%202026-08-05%20170756.png)
+![Model Leaderboard](images/Screenshot%202026-08-05%20170756.png)
 
-![Regression Plots](Screenshot%202026-08-05%20170808.png)
+![Regression Plots](images/Screenshot%202026-08-05%20170808.png)
 
 ### Phase 3: MLOps & Experiment Tracking
 
