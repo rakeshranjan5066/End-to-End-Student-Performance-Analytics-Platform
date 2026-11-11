@@ -43,11 +43,11 @@ Exploratory data analysis was performed to identify patterns, relationships, and
 
 - **The Nutrition Factor:** Students receiving standard lunch programs scored, on average, approximately 11 points higher in mathematics than students receiving free or reduced lunch.
 
-![EDA - Lunch Impact](images/Screenshot%202026-08-05%20170716.png)
+![EDA - Lunch Impact](study-insight-student-performance-prediction-main/images/Screenshot%202026-08-05%20170716.png)
 
 - **Gender-Based Performance Differences:** Male students demonstrated slightly higher average mathematics scores, while female students performed better on average in reading and writing.
-
 ![EDA - Lunch Impact](study-insight-student-performance-prediction-main/images/EXACT_FILENAME.png)
+
 ![EDA - Gender Distribution](study-insight-student-performance-prediction-main/images/EXACT_FILENAME.png)
 
 ### Phase 2: Model Training & Evaluation
