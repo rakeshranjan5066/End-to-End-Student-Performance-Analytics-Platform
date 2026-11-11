@@ -22,14 +22,14 @@ The predictive model is integrated into an interactive web application developed
 
 Enter a student's profile parameters to obtain a predicted mathematics score, estimated global percentile, estimated class rank, and insights based on the model's output.
 
-![Prediction Dashboard](images/Screenshot%202026-08-05%20170502.png)
+![Dashboard](study-insight-student-performance-prediction-main/images/Screenshot%202026-08-05%20170502.png)
 
 ### 2. Interactive Model Analytics
 
 The model diagnostics section visualizes actual versus predicted performance and prediction errors, helping users understand how the model performs.
 
 ![Model Analytics](
-images/Screenshot%202026-08-05%20170520.png)
+![Model Analytics](study-insight-student-performance-prediction-main/images/Screenshot%202026-08-05%20170520.png)
 
 ---
 
@@ -47,9 +47,8 @@ Exploratory data analysis was performed to identify patterns, relationships, and
 
 - **Gender-Based Performance Differences:** Male students demonstrated slightly higher average mathematics scores, while female students performed better on average in reading and writing.
 
-![EDA - Gender Distribution 1](images/Screenshot%202026-08-05%20170644.png)
-
-![EDA - Gender Distribution 2](images/Screenshot%202026-08-05%20170659.png)
+![EDA - Lunch Impact](study-insight-student-performance-prediction-main/images/EXACT_FILENAME.png)
+![EDA - Gender Distribution](study-insight-student-performance-prediction-main/images/EXACT_FILENAME.png)
 
 ### Phase 2: Model Training & Evaluation
 
@@ -65,10 +64,8 @@ Multiple regression algorithms were trained and evaluated to identify the best-p
 
 Linear Regression achieved the highest R² score among the evaluated models in the reported experiment.
 
-![Model Leaderboard](images/Screenshot%202026-08-05%20170756.png)
-
-![Regression Plots](images/Screenshot%202026-08-05%20170808.png)
-
+![Model Leaderboard](study-insight-student-performance-prediction-main/images/Screenshot%202026-08-05%20170756.png)
+![Regression Plots](study-insight-student-performance-prediction-main/images/Screenshot%202026-08-05%20170808.png)
 ### Phase 3: MLOps & Experiment Tracking
 
 The project includes an MLOps-oriented workflow using MLflow and DagsHub components for experiment tracking, parameter logging, and model evaluation. Remote tracking requires configuring your own account and tracking URI.
